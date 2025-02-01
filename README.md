@@ -36,7 +36,7 @@ from flake.nix
 
 # Creating the account. 
 
-Go to alpaca.com create an account. 
+Go to https://alpaca.markets/ create an account. 
 
 Obtain a paper account key and secret key. 
 
