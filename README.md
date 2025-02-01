@@ -32,15 +32,15 @@ If graphs are not displaying you may try removing
 DISPLAY=":0";
 ```
 
-from either flake.nix or shell.nix. 
+from flake.nix 
 
 # Creating the account. 
 
 Go to alpaca.com create an account. 
+
 Obtain a paper account key and secret key. 
+
 Go to https://docs.alpaca.markets/reference/stockbars to understand the API.
-An example script iis n getData.sh. 
-This returns the data given the first command. 
 
 # Download the data.
 
@@ -56,7 +56,7 @@ into MSFT.json in JSON format.
 
 # Understanding the data. 
 
-We now have data in MSFT.JSON.
+We now have data in MSFT.json.
 We now need to parse the data. 
 
 A typical entry looks like this:
