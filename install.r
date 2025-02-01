@@ -1,0 +1,5 @@
+library(remotes)
+remotes::install_github("stan-dev/cmdstanr@v0.8.1", dependencies=FALSE)
+library(cmdstanr)
+check_cmdstan_toolchain()
+install_cmdstan(cores = 16)
